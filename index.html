@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <title>Weather App</title>
+    </head>
+    <body>
+        <div class="main">
+            <div class="current">
+                <div class="info">
+                    <div class="data description"></div>
+                    <div class="data name"></div>
+                    <div class="data temp"></div>
+                    <form>
+                        <input type="text" name="location" id="search" placeholder="Type Location..." autocomplete="off" required>
+                        <input type="submit" value="Search">
+                    </form>
+                </div>
+                <div class="info">
+                    <div class="data">
+                        <div>Feels Like</div>
+                        <div class="feels-like"></div>
+                    </div>
+                    <div class="data">
+                        <div>Humidity</div>
+                        <div class="humidity"></div>
+                    </div>
+                    <div class="data">
+                        <div>Pressure</div>
+                        <div class="pressure"></div>
+                    </div>
+                    <div class="data"> 
+                        <div>Wind Speed</div>
+                        <div class="wind-speed"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="future">
+                <div> </div>
+            </div>
+        </div>
+        <script src="main.js" type="text/javascript"></script>
+    </body>
+</html>
+
